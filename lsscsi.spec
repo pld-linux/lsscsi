@@ -1,4 +1,5 @@
 Summary:	Utility that uses sysfs to list SCSI devices and SCSI hosts
+Summary(pl):	Narzêdzie u¿ywaj±ce sysfs-a do wypisywania urz±dzeñ i hostów SCSI
 Name:		lsscsi
 Version:	0.16
 Release:	1
@@ -18,6 +19,16 @@ information in procfs). However the permissions on SCSI device nodes
 are necessarily tight which precludes normal users from directly
 interrogating these devices. The lsscsi command will typically be
 available to all users.
+
+%description -l pl
+Polecenie lsscsi w celu uzyskania informacji odczytuje system plików
+sysfs (zwykle podmontowany pod /sys) zamiast otwierania plików
+urz±dzeñ SCSI (np. /dev/sda) w systemie. Odczyt informacji z systemu
+plików sysfs jest zwykle dostêpny dla wszystkich u¿ytkowników
+(podobnie jak informacje w procfs). Jednak uprawnienia do plików
+urz±dzeñ SCSI musz± byæ ograniczone, aby nie pozwoliæ na bezpo¶redni
+dostêp przez u¿ytkowników do tych urz±dzeñ. Polecenie lsscsi zwykle
+jest dostêpne dla wszystkich u¿ytkowników.
 
 %prep
 %setup -q
