@@ -1,3 +1,5 @@
+# NOTE: beta versions are versioned with just new version number,
+#       so check URL for final releases
 Summary:	Utility that uses sysfs to list SCSI devices and SCSI hosts
 Summary(pl.UTF-8):	Narzędzie używające sysfs-a do wypisywania urządzeń i hostów SCSI
 Name:		lsscsi
