@@ -7,9 +7,9 @@ Version:	0.21
 Release:	1
 License:	GPL v2
 Group:		Applications/System
-Source0:	http://sg.torque.net/scsi/%{name}-%{version}.tgz
+Source0:	http://sg.danny.cz/scsi/%{name}-%{version}.tgz
 # Source0-md5:	2acbb0a738b89ec0834a524ec4291da3
-URL:		http://sg.torque.net/scsi/lsscsi.html
+URL:		http://sg.danny.cz/scsi/lsscsi.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
