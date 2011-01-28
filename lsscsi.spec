@@ -10,6 +10,8 @@ Group:		Applications/System
 Source0:	http://sg.danny.cz/scsi/%{name}-%{version}.tgz
 # Source0-md5:	de3e51358ddf046a139483196106c1ac
 URL:		http://sg.danny.cz/scsi/lsscsi.html
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -36,6 +38,9 @@ jest dostępne dla wszystkich użytkowników.
 %setup -q
 
 %build
+%{__aclocal}
+%{__autoconf}
+%{__automake}
 %configure
 %{__make}
 
