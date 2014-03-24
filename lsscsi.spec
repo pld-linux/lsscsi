@@ -3,12 +3,12 @@
 Summary:	Utility that uses sysfs to list SCSI devices and SCSI hosts
 Summary(pl.UTF-8):	Narzędzie używające sysfs-a do wypisywania urządzeń i hostów SCSI
 Name:		lsscsi
-Version:	0.26
+Version:	0.27
 Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://sg.danny.cz/scsi/%{name}-%{version}.tgz
-# Source0-md5:	624d705899ed08e872e164679ac56545
+# Source0-md5:	33ab2927a9e567a47905e6a618c17859
 URL:		http://sg.danny.cz/scsi/lsscsi.html
 BuildRequires:	autoconf
 BuildRequires:	automake
